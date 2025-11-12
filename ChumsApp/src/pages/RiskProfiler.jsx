@@ -183,7 +183,7 @@ const RiskProfiler = () => {
 
     try {
       // First try AI-powered recommendations
-      const response = await fetchWithAuth('http://127.0.0.1:8000/api/risk-profile/', {
+      const response = await fetchWithAuth('https://moneygrow.onrender.com/api/risk-profile/', {
         method: 'POST',
         body: JSON.stringify({
           ...profile,
