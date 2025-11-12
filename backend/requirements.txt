@@ -5,3 +5,4 @@ djangorestframework-simplejwt
 python-decouple
 openai
 python-dotenv
+gunicorn
